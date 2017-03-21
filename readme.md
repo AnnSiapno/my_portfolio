@@ -39,6 +39,8 @@ Bright, flat colour scheme
 
 #### My Colour Scheme
 
+Grey base colours and one bright, flat accent colour
+
 ![alt](sources/colour-palette.png)
 
 
