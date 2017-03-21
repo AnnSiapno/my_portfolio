@@ -1,0 +1,758 @@
+/***** GENERAL *****/
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background-color: #fbfbf6;
+  color: #1a1a1a;
+}
+
+h1,
+h2, {
+  margin: 0;
+  font-family: mrs-eaves, serif;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: futura-pt, serif;
+}
+
+
+p {
+  font: 25px futura-pt, serif;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+div.sectionParagraph {
+  text-align: center;
+}
+
+div.sectionTitle {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 60px;
+}
+
+section p {
+  width: 60%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+/*** Nav Bar ***/
+
+.navbar-toggle {
+  color: #ffce2b;
+  font-size: 28px;
+}
+
+#navbar {
+  z-index: 200;
+}
+
+.navbar div.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 35px;
+  background-color: rgba(0,0,0,.2);
+}
+
+.nav-justified {
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  float: none;
+}
+
+#navbarCenter {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#navbarCenter li {
+  width: 125px;
+  display: inline-block;
+  float: none;
+}
+
+div#navbarLeft {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div#navbarCenter {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav img {
+  height: 50px;
+}
+
+.nav li#navbar-text a {
+  font: 700 20px;
+  letter-spacing: 3px;
+  color: #1a1a1a;
+}
+
+.nav li#navbar-text a:hover{
+  color: #ffce2b;
+  background-color: transparent;
+}
+
+.nav > li.active a {
+  background-color: transparent;
+}
+
+.effect {
+    min-height: 30px;
+    transition: 1s all ease;
+}
+
+.effect a {
+    text-align: center;
+}
+
+nav #navbarRight img {
+  max-height: 25px;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+/***** MAIN SECTION *****/
+
+#main {
+  background-color: #42413d;
+  /* parallax effect */
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+div.center-box {
+  /*border: 6px solid rgba(245,245,240,.4);*/
+  color: #f5f5f0;
+  text-align: center;
+  margin: 0 auto;
+  width: 75%;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.center-box img {
+  max-width: 150px;
+  margin-bottom: 50px;
+}
+
+div.center-box h1 {
+  margin-bottom: 0;
+  font-size: 100px;
+  letter-spacing: 4px;
+}
+
+div.center-box h4 {
+  margin-top: 0;
+  font-size: 45px;
+}
+
+div.learn-more {
+  color: #ffce2b;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+div.learn-more img {
+  max-width: 30px;
+  margin-top: 5px;
+}
+
+div.learn-more p {
+  letter-spacing: 1.2px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/***** SKILLS *****/
+
+section#skills {
+  background-color: #b2afac;
+}
+
+section#skills div.row {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section#skills h3 {
+  margin-top: 10px;
+}
+
+section#skills canvas {
+  margin-top: 20px;
+}
+
+
+/***** WORK *****/
+
+section#work {
+  background-color: #959492;
+}
+
+div#effect-5 {
+  margin: 10px 0;
+}
+
+section#work .container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+section#work div.container-fluid {
+  max-width: 80%;
+}
+
+.col-md-3 div.img {
+  margin: 30px 0;
+}
+
+section#work img {
+  max-width: 100%;
+}
+
+/***** ABOUT ME *****/
+section#aboutMe {
+  background-color: #b2afac;
+}
+
+section#aboutMe .aboutMeText {
+  margin-left: 15%;
+}
+
+section#aboutMe p {
+  width: auto;
+}
+
+section#aboutMe a {
+  color: #ffce2b;
+  font-size: 18px;
+}
+
+section#aboutMe button {
+  border-radius: 0;
+  border: 3px solid #ffce2b;
+  background-color: #ffce2b;
+  font-size: 20px;
+  line-height: 1.3;
+  padding: 5px 30px;
+}
+
+section#aboutMe button:hover {
+  background-color: transparent;
+  color: #ffce2b;
+}
+
+section#aboutMe .container-fluid {
+  padding: 0;
+}
+
+div#myCarousel {
+  margin-right: 15%;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+  margin: auto;
+}
+
+/***** CONTACT ME *****/
+section#contactMe {
+  background-color: #959492;
+  height: auto;
+}
+
+section#contactMe form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section#contactMe form input,
+section#contactMe form textarea {
+  border: 2px solid #1a1a1a;
+  background-color: transparent;
+  border-radius: 0;
+  color: #1a1a1a;
+  font-size: 18px;
+  padding: 10px 10px;
+  height: auto;
+}
+
+section#contactMe form input::-webkit-input-placeholder,
+section#contactMe form textarea::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
+  color: #1a1a1a;
+  font-family: "FontAwesome";
+}
+
+section#contactMe form input::-moz-placeholder.
+section#contactMe form textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #1a1a1a;
+}
+
+section#contactMe form input:-ms-input-placeholder,
+section#contactMe form textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #1a1a1a;
+}
+
+section#contactMe form input:-moz-placeholder.
+section#contactMe form textarea:-moz-placeholder { /* Firefox 18- */
+  color: #1a1a1a;
+}
+
+section#contactMe form button {
+  border-radius: 0;
+  border: 3px solid #ffce2b;
+  background-color: #ffce2b;
+  font-size: 26px;
+  line-height: 1.3;
+  padding: 0 30px;
+}
+
+section#contactMe form button:hover {
+  background-color: transparent;
+  color: #ffce2b;
+}
+
+section#contactMe form input:first-letter {
+  font-family: "FontAwesome";
+}
+
+/***** WORK VIEW *****/
+
+body.projectView {
+  background-color: #b2afac;
+}
+
+body.projectView .row {
+  padding: 0 15px 30px 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+body.projectView .col-md-6 {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+body.projectView .projectInfo {
+  text-align: left;
+}
+
+body.projectView h4 {
+  font-size: 22px;
+}
+
+body.projectView .projectInfo p {
+  text-align: left;
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+body.projectView .features p {
+  margin-bottom: 15px;
+}
+
+.projectViewButtons {
+  padding-top: 25px;
+  text-align: center;
+}
+
+body.projectView button {
+  border-radius: 0;
+  border: 3px solid #ffce2b;
+  background-color: #ffce2b;
+  font-size: 20px;
+  line-height: 1.3;
+  padding: 5px 30px;
+  margin: 0 3%;
+}
+
+body.projectView button:hover {
+  background-color: transparent;
+  border: 3px solid #ffce2b;
+  color: #ffce2b;
+}
+
+/*** Image Carousel/Slider ***/
+
+.largeImg {
+  width: 100%;
+}
+
+.slider{
+  margin: 50px auto 0 auto;
+	width: 100%; /*Same as width of the large image*/
+	position: relative;
+	/*Instead of height we will use padding*/
+	padding-top: 60%; /*That helps bring the labels down*/
+  text-align: center;
+}
+
+.slider>img{
+	position: absolute;
+	left: 0; top: 0;
+	transition: all 0.5s;
+}
+
+.slider input[name='slide_switch'] {
+	display: none;
+}
+
+.slider label {
+	/*Lets add some spacing for the thumbnails*/
+	margin-right: 18px;
+	cursor: pointer;
+	transition: all 0.5s;
+  opacity: 0.6;
+}
+
+.slider label img{
+	display: block;
+}
+
+/*Time to add the click effects*/
+.slider input[name='slide_switch']:checked+label {
+	opacity: 1;
+}
+
+/*Time to work on the main images*/
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+/*That hides all main images at a 110% size
+On click the images will be displayed at normal size to complete the effect
+*/
+.slider input[name='slide_switch']:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}
+
+/***** FOOTER *****/
+
+footer {
+  background-color: #42413d;
+  color: #e6e6e6;
+  text-align: center;
+}
+
+footer div.container {
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+
+footer p {
+  margin: 20px 0;
+}
+
+footer ul.footer a {
+  padding: 0 10px;
+}
+
+footer ul.footer img {
+  max-width: 40px;
+}
+
+footer ul.footer .effects .img img {
+  max-width: 40px;
+}
+
+ul.footer {
+  display: inline-block;
+}
+
+ul.footer a:hover {
+  background-color: transparent;
+}
+
+
+/*** Hover Effect ***/
+
+/*** Global ***/
+
+.effects .img {
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+.effects .img:last-child {
+  margin-right: 0;
+}
+.effects .img img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.overlayer-text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.overlay-text img {
+  min-width: 100%;
+}
+
+a.close-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f5f5f0;
+  line-height: 45px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+}
+
+a.close-overlay.hidden {
+  display: none;
+}
+
+
+
+/*** Effects ***/
+
+#effect-5 .overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+#effect-5 .overlay a.expand {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#effect-5 .img.hover .overlay {
+  opacity: 1;
+}
+
+
+
+/***** MEDIA QUERIES *****/
+
+@media screen and  (max-device-width: 992px) {
+
+  /*** Global ***/
+
+  section p {
+    width: 75%;
+  }
+
+  /*** Navbar ***/
+
+    .navbar div.container {
+      padding: 10px 20px;
+    }
+
+    #navbarCenter li {
+      width: 100px;
+    }
+
+    .nav > li > a {
+      padding: 10px;
+    }
+
+    nav #navbarRight img {
+      max-height: 20px;
+    }
+
+  /*** About Me ***/
+
+    section#aboutMe .aboutMeText,
+    section#aboutMe div#myCarousel {
+      margin: 0 auto;
+      width: 80%;
+    }
+}
+
+
+@media screen and (max-device-width: 768px) {
+
+  /*** Global ***/
+
+    section {
+      padding-top: 50px;
+    }
+
+  /*** Navbar ***/
+
+    .navbar div.container {
+      background-color: transparent;
+    }
+
+    div#navbarLeft {
+      display: none;
+    }
+
+    ul#navbarRight {
+      display: none;
+    }
+
+}
+
+
+@media screen and (max-device-width: 500px) {
+
+  /*** Global ***/
+
+  h2 {
+    font-size: 60px;
+  }
+
+  section p {
+    font-size: 22px;
+  }
+
+
+  /*** Landing ***/
+
+  div.center-box h1 {
+    font-size: 85px;
+  }
+
+  div.center-box h4 {
+    font-size: 30px;
+  }
+
+  div.learn-more p {
+    font-size: 18px;
+  }
+
+  div.learn-more img {
+    max-width: 25px;
+  }
+
+  /*** Footer ***/
+
+  footer p {
+    font-size: 22px;
+  }
+
+  footer ul.footer img {
+    max-width: 35px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  /*** Global ***/
+
+  h2 {
+    font-size: 48px;
+  }
+
+  section p {
+    font-size: 20px;
+  }
+
+  section {
+    padding-top: 30px; 
+  }
+
+  /*** Landing ***/
+
+  div.center-box img {
+    max-width: 130px;
+    margin-bottom: 30px;
+  }
+
+  div.center-box h1 {
+    font-size: 72px;
+  }
+
+  div.center-box h4 {
+    font-size: 25px;
+  }
+
+  /*** Contact Me ***/
+
+  section#contactMe form button {
+    font-size: 22px;
+  }
+
+  /*** Footer ***/
+
+  footer p {
+    font-size: 20px;
+  }
+
+  footer ul.footer a {
+    padding: 0 5px;
+  }
+
+}
