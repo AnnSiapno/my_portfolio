@@ -27,6 +27,18 @@ Goal: Look professional but approachable
 
 #### Professional/Luxurious websites
 
+Dark and neutral colour scheme
+
 ![alt](sources/luxury-websites.png)
+
+#### Fun, modern websites
+
+Bright, flat colour scheme
+
+![alt](sources/startup-websites.png)
+
+#### My Colour Scheme
+
+![alt](sources/colour-palette.png)
 
 
