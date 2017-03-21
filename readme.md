@@ -18,3 +18,16 @@ Start-ups, small businesses and entrepreneurs.
     * Highlight that I have touched on subjects involved in business and show examples of my business ventures.
 * Fast-paced work environment with tight deadlines.
     * Outline my work ethic.
+
+## Design
+
+Goal: Look professional but approachable
+
+### Colour Palette
+
+#### Professional/Luxurious websites
+
+![picture alt](https://en.wikipedia.org/wiki/Tree#/media/File:Ash_Tree_-_geograph.org.uk_-_590710.jpg)
+
+
+
