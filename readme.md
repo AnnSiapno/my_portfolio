@@ -57,3 +57,14 @@ A sans-serif font of medium thickness to balance out the 'luxurious feel from th
 
 ![alt](sources/futura-font.png)
 
+### Layout
+
+* Clean with minimal text
+* Visual tools - skills graph
+* Accent colour for call to action buttons
+* Accent colour for other focal points - social media buttons in navbar and "learn more" in hero section
+* Obvious hover states - change of colour or from fill to outline
+
+![alt](sources/mock-up-home.png)
+
+
