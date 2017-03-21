@@ -67,4 +67,6 @@ A sans-serif font of medium thickness to balance out the 'luxurious feel from th
 
 ![alt](sources/mock-up-home.png)
 
+![alt](sources/project-views.png)
+
 
