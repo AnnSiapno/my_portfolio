@@ -27,7 +27,6 @@ Goal: Look professional but approachable
 
 #### Professional/Luxurious websites
 
-![alt](sources/dark-website-1.png)
-
+![alt](sources/luxury-websites.png)
 
 
