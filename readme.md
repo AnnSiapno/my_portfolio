@@ -43,4 +43,17 @@ Grey base colours and one bright, flat accent colour
 
 ![alt](sources/colour-palette.png)
 
+### Font Family
+
+#### Section and page headers
+
+A thick serif font for a professional feel
+
+![alt](sources/mrs-eaves-font.png)
+
+#### Other page content (p, footer, nav etc.)
+
+A sans-serif font of medium thickness to balance out the 'luxurious feel from the serif font
+
+![alt](sources/futura-font.png)
 
