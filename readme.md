@@ -75,4 +75,48 @@ A simple monogram logo
 
 ![alt](sources/logo-design.JPG)
 
+### Usability and User Experience
+
+#### Simplicity
+
+Clean design, readable typography, maximum of four colours in the colour scheme
+
+#### Visual Hierarchy
+
+Call-to-action buttons are yellow, other points of interest are coloured
+
+#### Navigability
+
+Sticky navbar, logo sends you back to the homepage, minimal options in the navbar
+
+#### Accessibility
+
+Responsive design, alt-text included with all images, readable text
+
+#### Conventionality
+
+Logo in the top-left corner, hoverlinks applied, clickable logo
+
+## Sections
+
+Sections are ordered to what is more valuable to the target audience. Each section is aimed to lure the audience into finding out more and, therefore, scrolling further into the other sections.
+
+### Skills
+
+Goal: Highlight my current skills but outline that my skills are expanding. Use visual aid so that the user can encapsulate what I can do quickly rather than reading lare amounts of text.
+
+### Work
+
+Goal: Show my previous experience, explore what I have been able to do. Show my drive and work ethic. 
+
+### About Me
+
+Goal: Highlight my experience in business to attract my target audience. Touch on my passions to reveal a bit of my personality. 
+
+### Contact Me
+
+Goal: Friendly and approachable with a subtle sales pitch to further intrigue the audience. 
+
+
+
 
