@@ -302,6 +302,10 @@ section#contactMe {
   height: auto;
 }
 
+section#contactMe span.free {
+  font-weight: bold; 
+}
+
 section#contactMe form {
   width: 70%;
   margin: 0 auto;
@@ -721,7 +725,7 @@ a.close-overlay.hidden {
   }
 
   section {
-    padding-top: 30px; 
+    padding-top: 30px;
   }
 
   /*** Landing ***/
