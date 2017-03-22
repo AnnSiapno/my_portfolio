@@ -69,4 +69,10 @@ A sans-serif font of medium thickness to balance out the 'luxurious feel from th
 
 ![alt](sources/project-views.png)
 
+### Personal logo
+
+A simple monogram logo
+
+![alt](sources/logo-design.JPG)
+
 
