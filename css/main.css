@@ -84,6 +84,7 @@ section p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  width: 80%;
 }
 
 #navbarCenter li {
@@ -303,7 +304,7 @@ section#contactMe {
 }
 
 section#contactMe span.free {
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 section#contactMe form {
@@ -401,7 +402,7 @@ body.projectView .features p {
   text-align: center;
 }
 
-body.projectView button {
+.projectViewButtons button {
   border-radius: 0;
   border: 3px solid #ffce2b;
   background-color: #ffce2b;
@@ -608,7 +609,17 @@ a.close-overlay.hidden {
 
 /***** MEDIA QUERIES *****/
 
-@media screen and  (max-device-width: 992px) {
+@media screen and  (max-width: 1050px) {
+
+/*** Project View ***/
+
+  body.projectView button {
+    padding: 5px 20px;
+  }
+
+}
+
+@media screen and  (max-width: 992px) {
 
   /*** Global ***/
 
@@ -641,10 +652,21 @@ a.close-overlay.hidden {
       margin: 0 auto;
       width: 80%;
     }
+
+    /*** Project Views ***/
+
+    .slider {
+      margin-top: 30px;
+    }
+
+    body.projectView .projectInfo {
+      margin-top: 40px;
+    }
+
 }
 
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 767px) {
 
   /*** Global ***/
 
@@ -669,7 +691,7 @@ a.close-overlay.hidden {
 }
 
 
-@media screen and (max-device-width: 500px) {
+@media screen and (max-width: 500px) {
 
   /*** Global ***/
 
@@ -708,6 +730,15 @@ a.close-overlay.hidden {
 
   footer ul.footer img {
     max-width: 35px;
+  }
+
+}
+
+@media screen and (max-width: 448px) {
+
+  .projectViewButtons button {
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
 }
