@@ -185,7 +185,6 @@ div.center-box h4 {
 }
 
 div.learn-more {
-  color: #ffce2b;
   text-align: center;
   margin: 0 auto;
   position: absolute;
@@ -199,10 +198,16 @@ div.learn-more img {
   margin-top: 5px;
 }
 
-div.learn-more p {
+div.learn-more a p {
+  color: #ffce2b;
+  text-decoration: none;
   letter-spacing: 1.2px;
   font-size: 20px;
   margin-bottom: 5px;
+}
+
+div.learn-more a:hover {
+  text-decoration: none;
 }
 
 /***** SKILLS *****/

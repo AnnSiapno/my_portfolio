@@ -20,7 +20,9 @@ var executed;
      var hT = $('#skills').offset().top,
          wS = $(this).scrollTop();
 
-     if (wS > hT && !executed){
+
+    // Execute a little before reaching #skills
+     if (wS > (hT - 5) && !executed){
 
        	// Web Design Chart
         	var webdesignChart = $("#webdesignChart").get(0).getContext("2d");
